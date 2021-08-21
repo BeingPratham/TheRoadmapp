@@ -1,0 +1,29 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color:yellow;
+    border-top: 2px solid white;
+    overflow: hidden;
+}
+.icon
+{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icn{
+    margin-right: 20px;
+    color: yellow;
+}
+.icon a{
+    text-decoration: none;
+}
+.f-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}

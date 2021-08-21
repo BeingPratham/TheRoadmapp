@@ -1,0 +1,44 @@
+*{
+    /* background-color: #141629; */
+    
+  margin:0;
+  padding:0;
+  /* overflow-x: hidden; */
+  /* overflow: hidden; */
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.header{
+  height:50px;
+  display: flex;
+  padding-top: 40px;
+  /* background-color: black; */
+}
+.logo{
+  
+    width: 115px;
+    margin-top: -5px;
+    padding-left: 149px;
+    margin-left: 98px;
+    
+}
+@media (max-width: 768px){
+  .logo{
+    margin-left: 0;
+    margin-top: 5px;;
+  }
+}
+.menus{
+  padding: 30px;
+  
+}
+.menus > a{
+  padding: 10px;
+}
+
+
+
+
+
+

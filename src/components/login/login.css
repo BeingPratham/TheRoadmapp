@@ -1,0 +1,63 @@
+.login-form{
+    width: 38%;
+    height: 520px;
+    border: 1px solid #F4B41A;
+    margin: auto;
+    background-color: #143d59;
+    margin-top: 108px;
+}
+.login-field{
+    color: #F4B41A;
+    font-size: 30px;
+    margin-left: 22px;
+    font-weight: 700;
+}
+.extra-login{
+    height: 11px;
+}
+.login-input{
+    width: 93%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #F4B41A;
+}
+.login-div{
+    margin-top: 43px;
+    
+}
+.button-login{
+    width: 84%;
+    height: 41px;
+    background-color: #F4B41A;
+    border: 2px solid #143d59;
+    font-size: 20px;
+    font-weight: 900;
+    color: #143d59;
+    border-radius: 20px;
+}
+.button-login:hover{
+    background-color: #143d59;
+    color: #F4B41A;
+    transition: 0.3s ease-in;
+    border: 2px solid #F4B41A;
+    
+}
+.signup-login{
+    font-size: 28px;
+    margin-top: 19px;
+    color: #F4B41A;
+    font-weight: bolder;
+}
+.signup-link{
+    text-decoration: none;
+    color: white;
+}
+.signup-link:hover{
+    color: #143d59;
+    transition: 0.4s ease-in;
+}

@@ -1,0 +1,6 @@
+ul>li:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+    /* transition-timing-function: linear; */
+    
+}

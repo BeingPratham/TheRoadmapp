@@ -1,0 +1,30 @@
+.doubt{
+    background-color: #143d59;
+    
+    height: 79vh;
+    width: 80%;
+    margin: 35px auto;
+    border: 2px solid blueviolet;
+    box-shadow: 2px 2px 10px blueviolet;
+    
+}
+.heading{
+    color: #F4B41A;
+    margin: 10px auto;
+    width: max-content;    
+    margin-left: 50;
+    
+}
+br{
+    border: 1px solid white;
+    width: 100%;
+}
+@media (max-width: 768px){
+    .doubt{
+        height: 560px;
+        margin: 36px auto;
+    }
+    .heading{
+        font-size: 27px;
+    }
+}

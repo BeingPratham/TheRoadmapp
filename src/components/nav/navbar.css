@@ -1,0 +1,17 @@
+.logo{
+    margin-top: -37px;
+    margin-left: 13px;
+}
+.logo_main{
+    height: 139px;
+    width: 184px;
+}
+@media (max-width: 768px){
+    .logo{
+        margin-left: 1px;
+    }
+    .logo_main{
+        height: 110px;
+        width: 120px;
+    }
+}

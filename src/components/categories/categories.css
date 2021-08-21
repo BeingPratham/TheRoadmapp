@@ -1,0 +1,61 @@
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+    height: 635px;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+
+.linkname{
+  width: 180px;
+  height: 45px;
+  margin-top: -11px;
+  margin-left: -54px;
+}
+
+.link{
+    padding: 54px 235px;
+    height: 103px;
+    font-weight: bolder;
+  width: 564px;
+  margin-top: 8px;
+  
+  
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder; 
+    border: 1px solid white;
+    border-radius: 999px;
+    margin-left: 30px;
+}
+.link:hover{
+  color: #143D59;
+  background-color: #F4B41A;
+  transition: 0.3s ease-in;
+  
+}
+span.MuiButton-label {
+  padding: 0px;
+
+}
+
+@media (max-width: 768px){
+  
+  .link{
+    padding: 20px;
+    width: 500px;
+    height:50px;
+    margin: auto;
+   
+    border: 1px solid white;
+    border-radius: 300px;
+    
+  }
+  .linkname{
+    margin-left: 27px;
+    margin-top: -5px;
+  }
+}

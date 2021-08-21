@@ -1,0 +1,98 @@
+.welcome{
+    display: inline-flex;
+    margin-left: 388px;
+    font-size: 80px;
+    color:white;
+    
+}
+
+.h-content{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.h-text{
+    margin-left: 131px;
+    margin-top: 20px;
+    color:white;
+}
+.wrapper
+{
+    position: absolute;
+}
+.wrapper h2{
+    color: white;
+    margin-top: 25px;
+    margin-left: 531px;
+    font-size: 52px;
+}
+.spanner::before{
+    content: '';
+    animation: animate infinite 8s; 
+    color: #FFD700;
+}
+@keyframes animate {
+    0%{
+        content: 'Web development';
+    }
+    20%{
+        content: 'App development';
+    }
+    40%{
+        content: 'Game development';
+    }
+    60%{
+        content: 'Animation';
+    }
+    80%{
+        content: 'ML development';
+    }
+    100%{
+        content: 'Ethical hacking';
+    }
+}
+.quote{
+    margin-top: 230px;
+    margin-left: 486px;
+    font-size: 59px;
+    color:#FFD700;
+    font-weight: bold;
+}
+.home-content{
+    
+    background-color: #141629;
+    /* height: 5000px; */
+    color:white;
+}
+@media (max-width: 768px)
+{
+    .welcome{
+        margin-left: 45px;
+        margin-top: 127px;
+        font-size: 34px;
+    }
+    .h-content{
+        margin-left:0px
+    }
+    .h-text{
+        margin-left: 40px;
+        font-size: 30px;
+
+    }
+    .quote{
+        margin-left:55px;
+        font-size: 30px;
+    }
+    .home-content{
+        /* margin-top: 58px; */
+        /* background-color: #092239; */
+        background-color: #141629;
+        color: white;
+    }
+    .wrapper h2{
+        color: white;
+        margin-top: 75px;
+        margin-left: 56px;
+        font-size: 26px;
+    }
+    
+}
