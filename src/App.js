@@ -27,9 +27,10 @@ import Datascientist from './components/categories/lists/Datascientist';
 import Animator from './components/categories/lists/Animator';
 import Iosdev from './components/categories/lists/Iosdev';
 import Appdev from './components/categories/lists/Appdev';
+import axios from 'axios';
 
-
-
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 class App extends React.Component {
   
   render(){
